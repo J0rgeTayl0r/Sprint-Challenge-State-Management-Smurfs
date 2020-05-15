@@ -1,0 +1,19 @@
+Context is designed to share data that can be considered “global” for a tree of React components.
+
+Actions can have the type property and  payloads,  it gets dispatched to the reducer to update state.
+Reducers makes changes to the apps state.
+The store holds the apps state and is immutable. 
+
+
+The diferance is Apps state is accessable throughout 
+the entire app, so it can be changed from any component whether it be a parent or child. 
+It's also a way to pass props from children to the parent without drilling. 
+A good time to use App state over Component state 
+is when you want to change state from the child component,
+and display it to the parent.
+
+
+redux-thunk allows us to use async flow in redux.
+Allowing the action to be a function rather then an action object.
+
+I like Redux, because of its organization.
